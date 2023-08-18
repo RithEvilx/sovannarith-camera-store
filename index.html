@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sovannarith Camera Store</title>
+    <link rel="icon" href="img/scs-logo.png" />
+    <!-- CSS's Link -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- SwiperJs_Link's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- Fontawsome's Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- AOS's Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Animate.Style(Header Animation) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="navbar animate__animated animate__bounceInDown animate__delay-500s"
+      >
+        <div class="menubar">
+          <a href="#logo">
+            <div class="logo">
+              <img src="img/scs-logo.png" alt="" />
+              <h3>Sovannarith Camera Store</h3>
+            </div>
+          </a>
+          <div class="menu">
+            <ul>
+              <li>
+                <a href="#" style="color: var(--teal)"
+                  ><i class="fa-solid fa-house-chimney"></i> ទំព័រដើម</a
+                >
+              </li>
+              <li>
+                <a href="pages/camera-category.html"
+                  ><i class="fa-solid fa-camera"></i> ម៉ូដែលកាមេរ៉ា</a
+                >
+                <div class="drop-down">
+                  <ul>
+                    <li>
+                      <a
+                        href="pages/camera-category.html#canon"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-200s"
+                        >Canon</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-category.html#nikon"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-400s"
+                        >Nikon</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-category.html#sony"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-600s"
+                        >Sony</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-category.html#fuji"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-800s"
+                        >FujiFilm</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-category.html#panasonic"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-1000s"
+                        >Panasonic</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="pages/camera-accessory.html"
+                  ><i class="fa-solid fa-gears"></i> សម្ភារ:កាមេរ៉ា</a
+                >
+                <div class="drop-down d2">
+                  <ul>
+                    <li>
+                      <a
+                        href="pages/camera-accessory.html#lens"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-200s"
+                        >Lens</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-accessory.html#battery"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-400s"
+                        >Battery</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-accessory.html#memory&cardreader"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-600s"
+                      >
+                        Memory & <br />
+                        Card Reader
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="pages/camera-accessory.html#bag,case&strap"
+                        class="animate__animated animate__lightSpeedInLeft animate__delay-800s"
+                      >
+                        Bag, Case, <br />
+                        &Strap
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="pages/order.html"
+                  ><i class="fa-solid fa-cart-plus"></i> ការបញ្ជាទិញ</a
+                >
+              </li>
+              <li>
+                <a href="pages/about-us.html"
+                  ><i class="fa-solid fa-user"></i> អំពីខ្ញុំ</a
+                >
+              </li>
+              <li>
+                <a href="pages/contact.html"
+                  ><i class="fa-solid fa-envelope"></i> ទំនាក់ទំំនង</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="display" id="logo"></div>
+      <div class="slider">
+        <div
+          class="slide-box animate__animated animate__zoomIn animate__delay-1s"
+        >
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="camera-img">
+                  <img
+                    src="img/slide-camera/Canon_EOS_90D.png"
+                    alt="Canon_EOS_90D"
+                    class="resize"
+                  />
+                </div>
+                <div class="camera-feature">
+                  <h1>Canon EOS 90D</h1>
+                  <ul>
+                    <li>32.5 megapixel APS-C CMOS sensor.</li>
+                    <li>
+                      Fast continuous shooting, Capture the action at up to
+                      10fps.
+                    </li>
+                    <li>
+                      ITR focus tracking. Keep even fast-moving subjects in
+                      focus.
+                    </li>
+                    <li>4K filmmaking and Dual Pixel CMOS AF.</li>
+                    <li>Intelligent optical viewfinder.</li>
+                    <li>Maximum ISO 25,600.</li>
+                    <li>45 cross type AF points with multi-controller.</li>
+                    <li>Wi-Fi and Bluetooth®</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="camera-img">
+                  <img
+                    src="img/slide-camera/Nikon_D3500.webp"
+                    alt="Nikon_D3500"
+                  />
+                </div>
+                <div class="camera-feature">
+                  <h1>Nikon D3500</h1>
+                  <ul>
+                    <li>24.2-megapixel CMOS sensor.</li>
+                    <li>Up to 5 frames per second continuous shooting.</li>
+                    <li>
+                      11-point 3D Tracking Multi-CAM 1000 autofocus sensor
+                      module.
+                    </li>
+                    <li>Full HD and HD video recording (up to 60 frames/s).</li>
+                    <li>ISO sensitivity 100 to 25,600.</li>
+                    <li>
+                      3D Color Matrix Metering II (only compatible with type-G
+                      and E lenses).
+                    </li>
+                    <li>Bluetooth connectivity, but Wi-Fi not equipped.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="camera-img">
+                  <img src="img/slide-camera/Sony_A7r_V.png" alt="Sony_A7r_V" />
+                </div>
+                <div class="camera-feature">
+                  <h1>Sony A7R V</h1>
+                  <ul>
+                    <li>61MP Full-Frame Exmor R BSI CMOS Sensor.</li>
+                    <li>BIONZ XR & AI Processing Unit.</li>
+                    <li>AI-Based Real-Time Tracking AF System.</li>
+                    <li>8K 24p, 4K 60p, FHD 120p 10-Bit Video.</li>
+                    <li>Auto, ISO 100-32000 (expands to 50-102400)</li>
+                    <li>Screen size 3.2″</li>
+                    <li>Image stabilization Sensor-shift</li>
+                    <li>4-axis multi-angle 3.2-type LCD</li>
+                    <li>
+                      Faster connectivity options with 2.2 MIMI Wi-Fi and USB
+                      3.2 Gen 2
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="camera-img">
+                  <img
+                    src="img/slide-camera/FujiGFX100S.png"
+                    alt="FujiGFX100S"
+                    class="resize"
+                  />
+                </div>
+                <div class="camera-feature">
+                  <h1>FujiFilm GFX 100S</h1>
+                  <ul>
+                    <li>102MP BSI-CMOS 44x33mm medium format sensor</li>
+                    <li>Image stabilization system rated at up to 6EV</li>
+                    <li>Continuous shooting at up to 5 fps with C-AF</li>
+                    <li>4K30p with HDMI 10-bit 4:2:2 or 12-bit Raw footage</li>
+                    <li>Multi-shot 400MP mode for static subjects</li>
+                    <li>2.36M-dot rear touchscreen with two-axis tilt</li>
+                    <li>Lossy, lossless/uncompressed Raw in 16 or 14-bit</li>
+                    <li>Twin UHS-II SD card slots</li>
+                    <li>
+                      Fixed 3.69M-dot OLED EVF with 0.77x equiv. magnification
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="camera-img">
+                  <img
+                    src="img/slide-camera/Panasonic_Lumix_G100.png"
+                    alt="Panasonic_Lumix_G100"
+                    class="resize"
+                  />
+                </div>
+                <div class="camera-feature">
+                  <h1>Panasonic Lumix G100</h1>
+                  <ul>
+                    <li>20.3MP Four Thirds sensor.</li>
+                    <li>ISO 100-25600.</li>
+                    <li>3inch 1.84M dot vari-angle touchscreen.</li>
+                    <li>
+                      3.68M-dot equiv, 0.73x magnification, electronic
+                      viewfinder.
+                    </li>
+                    <li>49 AF points (contrast detection)</li>
+                    <li>4K video recording.</li>
+                    <li>ShutterSpeed 60sec-1/500 sec</li>
+                    <li>Lens mount Micro Four Thirds</li>
+                    <li>Articulated LCD Fully articulated</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div
+          class="brand-camera animate__animated animate__zoomIn animate__delay-1s"
+        >
+          <ul>
+            <li>
+              <a href="pages/camera-category.html#canon">
+                <div
+                  class="img-brand brand-1"
+                  style="background-color: #fff; padding: 5px"
+                >
+                  <img src="icon/canon-icon.svg" alt="canon-icon" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pages/camera-category.html#nikon">
+                <div class="img-brand">
+                  <img src="icon/nikon-icon.svg" alt="nikon-icon" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pages/camera-category.html#sony">
+                <div class="img-brand">
+                  <img src="icon/sony-icon.svg" alt="sony-icon" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pages/camera-category.html#fujifilm">
+                <div class="img-brand">
+                  <img src="icon/fujifilm-icon.svg" alt="fujifilm-icon" />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pages/camera-category.html#panasonic">
+                <div class="img-brand">
+                  <img src="icon/panasonic-icon.svg" alt="panasonic-icon" />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="information-box">
+      <div class="information">
+        <div class="item">
+          <div class="icon-box">
+            <div class="icon-cover">
+              <i class="fa-solid fa-building"></i>
+            </div>
+          </div>
+          <div class="description">
+            <p>20+</p>
+            <h3>Branches</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon-box">
+            <div class="icon-cover">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+          </div>
+          <div class="description">
+            <p>1360+</p>
+            <h3>Camera Sold</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon-box">
+            <div class="icon-cover">
+              <i class="fa-solid fa-medal"></i>
+            </div>
+          </div>
+          <div class="description">
+            <p>430+</p>
+            <h3>5-Star Review</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon-box">
+            <div class="icon-cover">
+              <i class="fa-solid fa-camera-retro"></i>
+            </div>
+          </div>
+          <div class="description">
+            <p>80+</p>
+            <h3>New Model</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-box" id="hot_product">
+      <div class="product">
+        <div class="title">
+          <h1>
+            <i class="fa-solid fa-fire"></i>
+            Hot Product
+            <hr />
+          </h1>
+        </div>
+        <div class="item-box">
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="200">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img
+                  src="img/slide-camera/Canon_EOS_4000D.png"
+                  alt="bag_01"
+                  class="resize"
+                />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>Canon EOS 4000D</h2>
+              <p>
+                18MP - APS-C CMOS Sensor <br />
+                ISO 100-12,800
+              </p>
+              <div class="order">
+                <p>$250.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="400">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img src="img/categories/lens_01.png" alt="lens_01" />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>Lens Canon EFS 18-55mm III</h2>
+              <p>
+                EF-S-Mount Lens/APS-C <br />
+                Aperture Range: f/3.5 to f/38
+              </p>
+              <div class="order">
+                <p>$65.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="600">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img src="img/categories/battery_01.png" alt="battery_01" />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>Battery Canon E6N Org</h2>
+              <p>
+                1865mAh Capacity <br />
+                Output Voltage of 7.2V
+              </p>
+              <div class="order">
+                <p>$75.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="800">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img src="img/categories/lens_02.png" alt="lens_02" />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>Sony FE 24-105mm F4G OSS</h2>
+              <p>
+                E-Mount Lens/Full-Frame Format <br />
+                Aperture Range: f/4 to f/22
+              </p>
+              <div class="order">
+                <p>$745.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="title">
+          <h1>
+            <i class="fa-solid fa-star"></i>
+            New Arrival
+            <hr />
+          </h1>
+        </div>
+        <div class="item-box">
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="200">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img src="img/categories/strap_01.png" alt="strap_01" />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>Strap Sony A</h2>
+              <p>Hold upto 20kg</p>
+              <div class="order">
+                <p>$5.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="400">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img src="img/categories/bag_02.png" alt="bag_02" />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>7-Art Backpack</h2>
+              <p>Waterproof resistence</p>
+              <div class="order">
+                <p>$35.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="600">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img src="img/categories/memory_01.png" alt="memory_01" />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>Sandisk SD 64GB Extreme Pro</h2>
+              <p>170MB/s</p>
+              <div class="order">
+                <p>$25.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in-right" data-aos-duration="800">
+            <div class="item-img">
+              <a href="details/product-detail.html" class="detail">
+                <img
+                  src="img/categories/cardreader_01.png"
+                  alt="cardreader_01"
+                />
+              </a>
+            </div>
+            <div class="item-description">
+              <h2>FB OTG16 iPhone</h2>
+              <p>Support lightning port</p>
+              <div class="order">
+                <p>$15.00</p>
+                <a href="pages/order.html#order" class="or">ទិញឥឡូវនេះ!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscription-box">
+      <div class="title">
+        <h1>Subscription</h1>
+        <span>$15.99 only</span>
+      </div>
+      <div class="subscription">
+        <div class="sub">
+          <h2></h2>
+          <ul>
+            <li>ជួសជុលកាមេរ៉ាឥតគិតថ្លៃ</li>
+            <li>អាចសាកល្បងផលិតផលទើបនាំចូលបាន</li>
+            <li>ផ្តល់ជូនសំបុត្រចូលរួមកម្មវិធីពិពណ៍កាមេរ៉ាដោយឥតគិតថ្លៃ</li>
+            <li>ផ្ដល់ជូនការជួសជុលផ្នែកខាងក្នុងរបស់កាមេរ៉ា</li>
+            <li>តម្លើងកម្មវិធីក្នុងកាមេរ៉ា និងផ្នែកខាងក្នុងរបស់កាមេរ៉ា</li>
+            <li>ផ្ដល់ជូនសំបុត្របញ្ចុះតម្លៃ (៥%) រាល់ការទិញសម្ភារ:កាមេរ៉ា</li>
+            <li>
+              ផ្ដល់ជូនវីដេអូបង្រៀន (តើអ្វីជា ShutterSpeed, ISO, Aperture និង
+              FStop)
+            </li>
+            <li>រាល់ការទិញសម្ភារ:កាមេរ៉ាចាប់ពី​៥មុខឡើងនឺងមានកាដូជួនភ្លាមៗ</li>
+            <li>មានកាដូថែមជូនពិសេសសម្រាប់អតិថិជនចាស់</li>
+          </ul>
+        </div>
+        <div class="sub">
+          <h2>បំពេញទម្រង់ចុះឈ្មោះ</h2>
+          <div class="input-box">
+            <label for="name">ឈ្មោះរបស់អ្នក</label>
+            <input type="text" id="name" placeholder="your name.." />
+          </div>
+          <div class="input-box">
+            <label for="phone">លេខទូរស័ព្ទ</label>
+            <input
+              type="number"
+              id="phone"
+              placeholder="your phone number..."
+            />
+          </div>
+          <div class="input-box">
+            <label for="location">អាស័យដ្ឋាន</label>
+            <input type="text" id="location" placeholder="your location..." />
+          </div>
+          <div class="input">
+            <div class="location">
+              <label for="p">នៅខេត្ដ</label>
+              <input type="radio" name="location" id="p" />
+              <label for="pp">នៅរាជធានីភ្នំពេញ</label>
+              <input type="radio" name="location" id="pp" />
+            </div>
+            <button type="submit">ចុះឈ្នោះឥឡូវនេះ!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="customer-review">
+      <div class="title">
+        <h1>Customer Review</h1>
+        <span>
+          <i class="fa-solid fa-star"></i>
+        </span>
+      </div>
+      <div class="review-box">
+        <a href="details/customer-detail-01.html" class="item">
+          <div class="profile-review">
+            <div class="profile">
+              <img src="img/p1.png" alt="p1" />
+            </div>
+          </div>
+          <div class="review-description">
+            <h3>Sambath</h3>
+            <p>សេវាកម្មល្អ!​ តម្លៃសមរម្យ</p>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </a>
+        <a href="details/customer-detail-02.html" class="item">
+          <div class="profile-review">
+            <div class="profile">
+              <img src="img/p2.png" alt="p2" />
+            </div>
+          </div>
+          <div class="review-description">
+            <h3>Kanha</h3>
+            <p>បុគ្គលរួសរាយ និងយកចិត្ដទុកដាក់ជាមួយភ្ញៀវ</p>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </a>
+        <a href="details/customer-detail-03.html" class="item">
+          <div class="profile-review">
+            <div class="profile">
+              <img src="img/p3.png" alt="p3" />
+            </div>
+          </div>
+          <div class="review-description">
+            <h3>Bopha</h3>
+            <p>ណែនាំហាងនេះ!​ កាមេរ៉ាមានគុណភាពខ្ពស់</p>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-box">
+        <div class="item">
+          <h2>អាស័យដ្ឋាន</h2>
+          <p>ផ្ទះលេខ​ ២០១ ផ្លូវ ៣១៣ ខណ្ឌទួលគោក រាជធានីភ្នំពេញ</p>
+        </div>
+        <div class="item">
+          <h2>ការបង់ប្រាក់</h2>
+          <div class="service-box">
+            <div class="service">
+              <img src="img/aba.jpg" alt="" />
+            </div>
+            <div class="service">
+              <img src="img/acleda.jpg" alt="" />
+            </div>
+            <div class="service">
+              <img src="img/wing.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <h2>ការដឹកជញ្ជួន</h2>
+          <div class="service-box">
+            <div class="service">
+              <img src="img/j&t.jpg" alt="" />
+            </div>
+            <div class="service">
+              <img src="img/vet.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <h2>ទំនាក់ទំំនង</h2>
+          <div class="box">
+            <i class="fa-solid fa-square-phone"></i> (+855)10 666 653 <br />
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-envelope"></i> sovannarith@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="credit">
+        <h2>
+          <i class="fa-regular fa-copyright"></i>រក្សាសិទ្ធិដោយ​​:
+          <span style="color: var(--red); margin-left: 10px">
+            សុខ ​សុវណ្ណារិទ្ធ - Sok Sovannarith</span
+          >
+        </h2>
+      </div>
+    </footer>
+  </body>
+  <!-- AOS's Script Source -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- SwiperJs_Link's Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    // AOS's Script
+    AOS.init();
+    //SwiperJs_Link's Script
+    var swiper = new Swiper(".mySwiper", {
+      centeredSlides: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>

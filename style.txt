@@ -1,0 +1,23 @@
+-color-bg-black: #0b0433;
+--teal: #20c997;
+--cyan: #17a2b8;
+--info: #17a2b8;
+-background-divbox-black: #3a3458;
+
+detail-bg-height-455px for 15.6"
+
+-background-color-footer: #06021f;
+
+--box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); ] color border ans showdow can change up to you
+--border: 0.1rem solid rgba(0, 0, 0, 0.1);      ] 
+
+other-page-navbar-background-color: #392f6e;
+
+https://preview.themeforest.net/item/garcia-camera-store-html-template/full_screen_preview/24035123?_ga=2.227363870.206008672.1680585429-1801383935.1680585429&_gac=1.154137930.1680585429.Cj0KCQjw8qmhBhClARIsANAtbofBsuMuvEwf82p2e4c3wZ9E-KNNU_WEOkEgAXIT8u7f8U-rFj6eFKIaArAKEALw_wcB
+category camera 
+
+https://themeforest.net/search/camera%20shop?gclid=Cj0KCQjw8qmhBhClARIsANAtbofBsuMuvEwf82p2e4c3wZ9E-KNNU_WEOkEgAXIT8u7f8U-rFj6eFKIaArAKEALw_wcB
+
+Camera-4000d
+video broll
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VXN_0DwXi6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
