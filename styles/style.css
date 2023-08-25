@@ -768,10 +768,6 @@ footer .credit h2 {
   border: none;
   transition: all 0.5s;
 }
-.contact-us .sub .input button:hover {
-  box-shadow: 0 0 10px 3px var(--light-color);
-  transform: scale(1.1);
-}
 .contact-us .sub .message textarea {
   padding: 10px;
   border-radius: 20px;
