@@ -357,6 +357,7 @@ p {
   transition: all 0.5s;
   position: absolute;
   position: relative;
+  bottom: -40px;
 }
 .product .item .item-description h2 {
   font-size: 15px;
