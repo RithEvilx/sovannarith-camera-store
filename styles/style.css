@@ -1196,17 +1196,4 @@ footer .credit h2 {
   display: flex;
   justify-content: space-between;
 }
-.category-product .category-camera .sidebar,
-.category-product .category-camera .ads-box {
-  width: 24%;
-  height: 100px;
-  background-color: var(--light-color-blur);
-}
-.category-product .sidebar .title h3 {
-  color: var(--cyan);
-}
-.category-product .category-camera .camera-box {
-  width: 48%;
-  height: 100%;
-  background-color: yellow;
-}
+
