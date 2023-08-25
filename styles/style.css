@@ -399,8 +399,7 @@ p {
   transform: scale(1.1);
 }
 .product .item-box .item:hover .item-description {
-  position: absolute;
-  bottom: 5px;
+  bottom: 0;
 }
 .product .item-description .order .or:hover {
   box-shadow: 0 0 5px 2px var(--teal);
@@ -1196,4 +1195,3 @@ footer .credit h2 {
   display: flex;
   justify-content: space-between;
 }
-
