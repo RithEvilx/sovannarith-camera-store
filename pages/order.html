@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <!-- AOS's Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Animate.Style(Header Animation) -->
     <link
       rel="stylesheet"
@@ -140,7 +142,7 @@
     <div class="container-order">
       <div class="order-box">
         <div class="description">
-          <div class="info">
+          <div class="info" data-aos="zoom-in-right" data-aos-duration="800">
             <div class="customer">
               <div class="title">
                 <h1>បញ្ចូលព័ត៍មានផ្ទាល់ខ្លួន</h1>
@@ -197,7 +199,7 @@
               </div>
             </div>
           </div>
-          <div class="info">
+          <div class="info" data-aos="zoom-in-left" data-aos-duration="800">
             <div class="title">
               <h1>បញ្ចូលព័ត៍មានផលិតផល</h1>
             </div>
@@ -318,4 +320,10 @@
       </div>
     </footer>
   </body>
+  <!-- AOS's Script Source -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // AOS's Script
+    AOS.init();
+  </script>
 </html>
