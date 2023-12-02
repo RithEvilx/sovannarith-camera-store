@@ -76,7 +76,6 @@ p {
   position: relative;
 }
 .navbar {
-  width: 100%;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -252,6 +251,7 @@ p {
   height: 200px;
   margin-top: 120px;
   border-radius: 200px;
+  padding: 20px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
